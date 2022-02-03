@@ -87,6 +87,11 @@ public class MarkdownParseTest {
         ArrayList<String> expectedLinks = new ArrayList<>();
         assertEquals(expectedLinks, links);
     }
+
+    @Test
+    public void testFail() {
+        assertEquals(3, 1+1);
+    }
 }
 
 /**
